@@ -72,11 +72,8 @@ const AddExpenseForm = ({ onSubmit, onCancel, expense }) => {
               required
             >
               <option value="food">Food</option>
-              <option value="transport">Transport</option>
               <option value="entertainment">Entertainment</option>
-              <option value="shopping">Shopping</option>
-              <option value="utilities">Utilities</option>
-              <option value="other">Other</option>
+              <option value="travel">Travel</option>
             </select>
           </div>
         </div>

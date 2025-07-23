@@ -15,7 +15,7 @@ const ExpenseList = ({ expenses, onEdit, onDelete }) => {
   return (
     <div className="expense-list-container">
       {expenses.length === 0 ? (
-        <div className="empty-state">No expenses added yet</div>
+        <div className="empty-state">No transactions!</div>
       ) : (
         <div className="expense-items">
           {expenses.map((expense) => (
