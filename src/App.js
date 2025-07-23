@@ -98,7 +98,7 @@ function App() {
                 className="btn btn-expense"
                 onClick={() => setIsExpenseModalOpen(true)}
               >
-                <FiPlus /> Add Expense
+                + Add Expense
               </button>
             </div>
           </div>
