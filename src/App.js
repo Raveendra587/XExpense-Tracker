@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-// import { FiPlus } from 'react-icons/fi';
 import Balance from './components/Balance';
 import ExpenseList from './components/ExpenseList';
 import AddBalanceForm from './components/AddBalanceForm';
